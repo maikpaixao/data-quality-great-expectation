@@ -1,0 +1,6 @@
+great_expectations init
+great_expectations datasource new
+great_expectations suite new
+great_expectations suite edit 'train_dataset'
+great_expectations checkpoint new 'train_data_checkpoint'
+great_expectations checkpoint run 'train_data_checkpoint'
